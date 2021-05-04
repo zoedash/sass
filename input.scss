@@ -9,3 +9,12 @@ $colors: (
   D200: #c9d6df,
   D300: #56616b
 );
+
+@each $code, $color in $colors {
+  .b-#{$code} {
+    background-color: $color;
+  }
+}
+
+// // Create a background-color styles for all colors.
+// // Ашиглаж болох түлхүүр үгнүүд:  @import, @each, @map-get, @map-keys
