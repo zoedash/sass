@@ -1,37 +1,61 @@
-.b-B200 {
+.border-B200-2 {
   background-color: #0084f8;
 }
 
-.b-D400 {
+.border-D400-2 {
   background-color: #001b36;
 }
 
-.b-White {
+.border-White-2 {
   background-color: #ffffff;
 }
 
-.b-B100 {
-  background-color: #58c2f1;
+.border-B200-4 {
+  background-color: #0084f8;
 }
 
-.b-R100 {
-  background-color: #ff8576;
+.border-D400-4 {
+  background-color: #001b36;
 }
 
-.b-G100 {
-  background-color: #47c2b1;
+.border-White-4 {
+  background-color: #ffffff;
 }
 
-.b-D100 {
-  background-color: #f0f5f9;
+.border-B200-6 {
+  background-color: #0084f8;
 }
 
-.b-D200 {
-  background-color: #c9d6df;
+.border-D400-6 {
+  background-color: #001b36;
 }
 
-.b-D300 {
-  background-color: #56616b;
+.border-White-6 {
+  background-color: #ffffff;
+}
+
+.border-B200-8 {
+  background-color: #0084f8;
+}
+
+.border-D400-8 {
+  background-color: #001b36;
+}
+
+.border-White-8 {
+  background-color: #ffffff;
+}
+
+.border-B200-10 {
+  background-color: #0084f8;
+}
+
+.border-D400-10 {
+  background-color: #001b36;
+}
+
+.border-White-10 {
+  background-color: #ffffff;
 }
 
 /*# sourceMappingURL=output.css.map */

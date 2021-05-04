@@ -1,20 +1,25 @@
 $colors: (
   B200: #0084f8,
   D400: #001b36,
-  White: #ffffff,
-  B100: #58c2f1,
-  R100: #ff8576,
-  G100: #47c2b1,
-  D100: #f0f5f9,
-  D200: #c9d6df,
-  D300: #56616b
+  White: #ffffff
 );
 
 @each $code, $color in $colors {
-  .b-#{$code} {
-    background-color: $color;
+}
+
+@for $i from 2 through 10 {
+  @if $i % 2 == 0 {
+    @each $code, $color in $colors {
+      .border-#{$code}-#{$i} {
+        background-color: $color;
+      }
+    }
   }
 }
 
-// // Create a background-color styles for all colors.
-// // Ашиглаж болох түлхүүр үгнүүд:  @import, @each, @map-get, @map-keys
+// B100: #58c2f1,
+// R100: #ff8576,
+// G100: #47c2b1,
+// D100: #f0f5f9,
+// D200: #c9d6df,
+// D300: #56616b
