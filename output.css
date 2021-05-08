@@ -1,61 +1,68 @@
-.border-B200-2 {
+.btn-primary {
   background-color: #0084f8;
+  height: 40px;
+  width: 122px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 300;
+  left: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans";
 }
 
-.border-D400-2 {
-  background-color: #001b36;
+.btn-secondary {
+  border: 1px solid #0084f8;
+  height: 40px;
+  width: 146px;
+  color: #0084f8;
+  font-size: 20px;
+  font-weight: 300;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans";
 }
 
-.border-White-2 {
-  background-color: #ffffff;
+.btn-disabled {
+  background-color: #c9d6df;
+  height: 40px;
+  width: 122px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans";
 }
 
-.border-B200-4 {
-  background-color: #0084f8;
+.btn-success {
+  background-color: #47c2b1;
+  height: 40px;
+  width: 122px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans";
 }
 
-.border-D400-4 {
-  background-color: #001b36;
-}
-
-.border-White-4 {
-  background-color: #ffffff;
-}
-
-.border-B200-6 {
-  background-color: #0084f8;
-}
-
-.border-D400-6 {
-  background-color: #001b36;
-}
-
-.border-White-6 {
-  background-color: #ffffff;
-}
-
-.border-B200-8 {
-  background-color: #0084f8;
-}
-
-.border-D400-8 {
-  background-color: #001b36;
-}
-
-.border-White-8 {
-  background-color: #ffffff;
-}
-
-.border-B200-10 {
-  background-color: #0084f8;
-}
-
-.border-D400-10 {
-  background-color: #001b36;
-}
-
-.border-White-10 {
-  background-color: #ffffff;
+.btn-delete {
+  background-color: #ff8576;
+  height: 40px;
+  width: 109px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans";
 }
 
 /*# sourceMappingURL=output.css.map */

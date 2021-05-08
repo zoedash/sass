@@ -4,22 +4,78 @@ $colors: (
   White: #ffffff
 );
 
-@each $code, $color in $colors {
+$secondary-colors: (
+  B100: #58c2f1,
+  R100: #ff8576,
+  G100: #47c2b1,
+  D100: #f0f5f9,
+  D200: #c9d6df,
+  D300: #56616b
+);
+
+.btn-primary {
+  background-color: map-get($colors, B200);
+  height: 40px;
+  width: 122px;
+  color: map-get($colors, White);
+  font-size: 20px;
+  font-weight: 300;
+  left: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans";
 }
 
-@for $i from 2 through 10 {
-  @if $i % 2 == 0 {
-    @each $code, $color in $colors {
-      .border-#{$code}-#{$i} {
-        background-color: $color;
-      }
-    }
-  }
+.btn-secondary {
+  border: 1px solid map-get($colors, B200);
+  height: 40px;
+  width: 146px;
+  color: map-get($colors, B200);
+  font-size: 20px;
+  font-weight: 300;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans";
 }
 
-// B100: #58c2f1,
-// R100: #ff8576,
-// G100: #47c2b1,
-// D100: #f0f5f9,
-// D200: #c9d6df,
-// D300: #56616b
+.btn-disabled {
+  background-color: map-get($secondary-colors, D200);
+  height: 40px;
+  width: 122px;
+  color: map-get($colors, White);
+  font-size: 20px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans";
+}
+
+.btn-success {
+  background-color: map-get($secondary-colors, G100);
+  height: 40px;
+  width: 122px;
+  color: map-get($colors, White);
+  font-size: 20px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans";
+}
+
+.btn-delete {
+  background-color: map-get($secondary-colors, R100);
+  height: 40px;
+  width: 109px;
+  color: map-get($colors, White);
+  font-size: 20px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans";
+}
